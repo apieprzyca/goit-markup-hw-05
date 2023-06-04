@@ -131,22 +131,16 @@ menu,
   cursor: pointer;
 }
 
-.contact-data-mail-link:focus,
-.envelope-smartphone:focus,
-.contact-data-phone-number-link:focus {
-  cursor: pointer;
-  fill: #2196f3;
-}
-.contact-data-mail-link:hover,
-.envelope-smartphone:hover,
-.contact-data-phone-number-link:hover {
+.link-mail-top:focus > .envelope-smartphone,
+.link-mail-top:hover > .envelope-smartphone {
   cursor: pointer;
   fill: #2196f3;
 }
 
-.contact-links-mail:focus,
-.contact-links-mail:hover {
+.link-phone-top:focus > .envelope-smartphone,
+.link-phone-top:hover > .envelope-smartphone {
   cursor: pointer;
+  fill: #2196f3;
 }
 .contact-links-mail,
 .contact-links-phone {
